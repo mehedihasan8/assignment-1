@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn{
+    border: none;
+    color: #fff;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+
+}
+/* hero section  */
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/banner/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section{
+    margin: 0 130px;
+}
+.hero-title{
+    text-align: right;
+    font-size: 65px;
+    font-weight: 800px;
+    padding-top: 100px;
+}
+.hero-discription{
+    text-align: right;
+    font-size: 16px;
+    padding-left: 580px;
+    align-items: right ;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.hero-btn{
+    text-align: right;
+    margin-top: 30px;
+}
+    /* failures section  */
+
+.failures {
+    display: flex;
+    gap: 60px;
+}
+.failures{
+    padding-top: 100px;
+}
+.failures-sub-titel{
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: 800px;
+    line-height: 50px;
+}
+.failures-sub-discirption{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+}
+.failures-pic img {
+    height: 580px;
+    width: 450px;
+}
+.fa-solid{
+    color: #16D887;
+    padding-right: 10px;
+}
+.order-list li {
+    line-height: 30px;
+    list-style: none;
+}
+
+/* my plans section  */
+
+.plans-titel {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.my-plans{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.my-plans-item img {
+    height: 70px;
+    width: 70px;
+}
+.my-plans-item {
+    text-align: center;
+}
+.my-plans-item-titel{
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.my-plans-item-dis{
+    font-size: 20px;
+}
