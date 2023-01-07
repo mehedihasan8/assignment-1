@@ -12,7 +12,6 @@
     padding: 15px 25px;
     font-size: 18px;
     font-weight: bolder;
-
 }
 
 
@@ -88,22 +87,28 @@
     list-style: none;
 }
 
+
 /* My Success section  */
+
+
 .success{
     margin-top: 120px;
     margin-bottom: 50px;
     display: flex;
     gap: 80px;
-
 }
+
 .success-sub{
     margin-top: 45px;
 }
+
+
 .success-sub-titel{
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
 .success-sub-discirption{
     margin-bottom: 30px;
     font-size: 16px;
