@@ -11,6 +11,7 @@
     border-radius: 5px;
     padding: 15px 25px;
     font-size: 18px;
+    font-weight: bolder;
 
 }
 /* hero section  */
@@ -115,10 +116,12 @@
 
 .plans-next {
     background-image: url(./images/watch.png), url(./images/gradient2.png);
-    background-position:cover;
+    background-position:center;
     background-repeat: no-repeat;
+    background-size: contain;
     height: 220px;
     width: 100%;
+    border-radius: 10px;
     background-blend-mode: multiply;
     padding-top: 60px;
     padding-left: 60px, 60px;   
@@ -148,11 +151,53 @@
     padding-left: 80px;
 }
 
+/* footer section  */
 .hero-footer{
     margin-top: 120px;
     background-color: black;
-    height: 400px;
+    height: 500px;
 }
 .footer-item{
     color: #fff;
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+}
+.footer-sub-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.footer-sub-discription{
+    font-size: 16px;
+    text-align: left;
+    padding-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.footer-sub-discription-1{
+    margin-top: 22px;
+}
+.footer-sub img {
+    margin-top: 35px;
+    padding-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+.footer-subscribe-title{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.footer-subscribe input {
+    margin-top: 20px;
+    border: 1px solid #F3F3F3;
+    background: black;
+    font-size: 15px;
+    color: #F3F3F3;
+    padding: 15px 70px;
+    border-radius: 5px;
+}
+.footer-subscribe-btn{
+    margin-top: 40px;
 }
