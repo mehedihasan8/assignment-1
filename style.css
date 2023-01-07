@@ -116,15 +116,23 @@
 .plans-next {
     background-image: url(/images/watch.png), url(/images/gradient2.png);
     background-position:cover;
-    height: 170px;
+    background-repeat: no-repeat;
+    height: 220px;
     width: 100%;
     background-blend-mode: multiply;
-    padding-top: 40px;
-    padding-left: 60px;   
+    padding-top: 60px;
+    padding-left: 60px, 60px;   
 }
-.plans-next-item h1,h4 {
+.plans-next-item-titel{
     font-size: 40px;
     color: #fff;
+    padding-left: 80px;
+}
+.plans-next-item-titel-1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 80px;
 }
 .plans-btn {
     border: none;
@@ -136,5 +144,15 @@
     font-weight: bolder;
 }
 .btn-item{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.hero-footer{
+    margin-top: 120px;
+    background-color: black;
+    height: 400px;
+}
+.footer-item{
+    color: #fff;
 }
